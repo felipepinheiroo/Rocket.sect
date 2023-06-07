@@ -1,0 +1,110 @@
+:root {
+    --color-white: #FFFFFF;
+    --color-navygreen: #00BFA6;
+    --color-gray: #C2C2C2;
+    --color-background: #2F2E41;
+    --font-primary: 'JetBrains Mono';
+    --fonte-second: 'Open Sans';
+}
+
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+    background-color: var(--color-background);
+    
+    font-family: var(--font-primary);
+    color: var(--color-white);
+    text-decoration: none;
+    text-align: center;
+}
+
+.page {
+    width: 1090px;
+    margin: 0 auto;
+    padding-top: 71px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 64px;
+}
+
+nav ul li a {
+    font-size: 14px;
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: var(--color-gray);
+}
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    width: 605px;
+}
+
+section h1 {
+    margin-bottom: 59px;
+
+    font-weight: 700;
+    font-size: 36px;
+}
+
+section h1 span {
+    color: var(--color-navygreen);
+}
+
+section p {
+    font-family: var(--fonte-second);
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--color-gray);
+}
+
+section p span {
+    color: var(--color-navygreen);
+    font-weight: 700;
+}
+
+.line {
+    width: 568px;
+    border: 1px solid var(--color-navygreen);
+    margin: 157px auto 27px;
+}
+
+footer {
+    font-size: 14px;
+}
+
+footer a {
+    color: var(--color-white);
+}
+
+footer a:hover {
+    color: var(--color-gray);
+}
+
+.padlock {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+}
